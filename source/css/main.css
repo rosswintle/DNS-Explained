@@ -1,0 +1,59 @@
+/**
+ * Colours (from http://colorsupplyyy.com/app/):;
+ * Blue: #30499B;
+ * Pink: #EC4A94;
+ * Purple: #844D9E;
+ * Green: #207720;
+ * Indigo: #444BFF;
+ */
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #30499B;
+	color: #FFF;
+}
+
+main {
+	width: 90%;
+}
+
+h1 {
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+a {
+	font-size: 1.5rem;
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:active, a:hover, a:focus {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.button-link {
+	display: inline-block;
+	border: 1px solid #FFF;
+	border-radius: 4px;
+	padding: 0.5rem 1rem;
+}
+
+/*
+  Larger devices
+ */
+@media screen and (min-width: 720px) {
+
+	main {
+		width: 60%;
+	}
+
+}
