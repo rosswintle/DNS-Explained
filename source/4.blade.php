@@ -2,7 +2,7 @@
 title: 
 nextPage: 5
 pageColor: "#30499B"
-buttonText: "How does it do that?"
+buttonText: "How does the internet know all the numbers?"
 ---
 
 @extends('_layouts.master')
